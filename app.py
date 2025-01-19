@@ -18,7 +18,7 @@ url_model = joblib.load("./models/random_forest_model.pkl")  # Load URL classifi
 email_model = joblib.load("./models/sgd_classifier_pipeline.pkl")  # Load email classification model
 
 # Define the API key for authentication
-API_KEY = 'd0d8ca06c18aebabdf27aec7e9af49d8a9e4a8275eb360024bf26a9162ecacc9' # Extra API key :- 'bae8d62ae09bc82d53330ed9cff7c8574c713e65f5dd00c21a980450285e659e'
+API_KEY = 'Insert your virustotal private API key here' 
 
 # API endpoint to retrieve the API key
 @app.route('/get_api_key', methods=['GET'])
